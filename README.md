@@ -7,7 +7,7 @@
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/BootleggersROM/manifest.git -b tirimbino
+	repo init -u https://github.com/leddaz-stuff/bootleg_manifest.git -b tirimbino
 
 Then, be sure to add your device manifest in your local_manifests folder and finally, do:
 

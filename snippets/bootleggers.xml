@@ -27,8 +27,12 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <remote  name="leddaz-stuff"
+           fetch="https://github.com/leddaz-stuff/"
+           revision="refs/heads/tirimbino" />
+
   <!-- General -->
-  <project path="manifest" name="manifest" remote="bootleggers" />
+  <project path="manifest" name="bootleg_manifest" remote="leddaz-stuff" />
   <project path="art" name="art" remote="bootleggers" />
   <project path="bionic" name="bionic" remote="bootleggers" />
   <project path="bootable/recovery" name="bootable_recovery" remote="bootleggers" />
@@ -66,7 +70,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="bootleggers" />
-  <project path="frameworks/base" name="frameworks_base" remote="bootleggers" />
+  <project path="frameworks/base" name="bootleg_frameworks_base" remote="leddaz-stuff" />
   <project path="frameworks/libs/net" name="frameworks_libs_net" remote="bootleggers" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="bootleggers" />
   <project path="frameworks/native" name="frameworks_native" remote="bootleggers" />
@@ -93,7 +97,7 @@
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="bootleggers" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="bootleggers" />
   <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="bootleggers" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="bootleggers" />
+  <project path="packages/apps/Settings" name="bootleg_packages_apps_Settings" remote="leddaz-stuff" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="bootleggers" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="bootleggers" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="bootleggers" />
@@ -116,4 +120,5 @@
   <project path="vendor/gapps" name="vendor_gapps" remote="gitlab-bootleggers" clone-depth="1" />
   <project path="vendor/shishufied" name="vendor_shishufied" remote="bootleggers" />
   <project path="vendor/support" name="vendor_support" remote="bootleggers" />
+  
 </manifest>

@@ -7,27 +7,15 @@
 
   <!-- CodeLinaro additions -->
   <project path="vendor/codeaurora/telephony" remote="lineage" name="android_vendor_codeaurora_telephony" groups="qcom,qssi" />
-  <!--<project path="vendor/nxp/nfc" name="ArrowOS/android_vendor_nxp_nfc" remote="github" revision="arrow-13.0" />
-  <project path="vendor/nxp/secure_element" name="ArrowOS/android_vendor_nxp_secure_element" remote="github" revision="arrow-13.0" />
-  <project path="vendor/nxp/secure_element_extns" name="ArrowOS/android_vendor_nxp_secure_element_extns" remote="github" revision="arrow-13.0" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="ArrowOS/android_vendor_nxp_interfaces_opensource_nfc" remote="github" revision="arrow-13.0" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="ArrowOS/android_vendor_nxp_opensource_external_libnfc-nci" remote="github" revision="arrow-13.0" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="ArrowOS/android_vendor_nxp_opensource_frameworks" remote="github" revision="arrow-13.0" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="ArrowOS/android_vendor_nxp_opensource_packages_apps_Nfc" remote="github" revision="arrow-13.0" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="arrow-13.0-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="arrow-13.0-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="ArrowOS/android_vendor_nxp_opensource_halimpl" remote="github" revision="arrow-13.0-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="ArrowOS/android_vendor_nxp_opensource_hidlimpl" remote="github" revision="arrow-13.0-sn100x" /> -->
   <project path="vendor/qcom/opensource/audio" remote="lineage" name="android_vendor_qcom_opensource_audio" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" remote="lineage" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" remote="leddaz-stuff" revision="lineage-20.0" name="android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/commonsys/display" remote="lineage" name="android_vendor_qcom_opensource_display-commonsys" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/display" remote="lineage" name="android_vendor_qcom_opensource_display" groups="qcom" />
   <project path="vendor/qcom/opensource/fm-commonsys" remote="lineage" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" remote="lineage" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" revision="lineage-20.0-legacy-um" />
   <project path="vendor/qcom/opensource/dataservices" remote="lineage" name="android_vendor_qcom_opensource_dataservices" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/interfaces" remote="lineage" name="android_vendor_qcom_opensource_interfaces" groups="qcom,qssi" />
-  <!--<project path="vendor/qcom/opensource/libfmjni" remote="lineage" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" />-->
   <project path="vendor/qcom/opensource/power" remote="lineage" name="android_vendor_qcom_opensource_power" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/thermal-engine" remote="lineage" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,waipio-vendor" />
   <project path="vendor/qcom/opensource/usb" remote="lineage" name="android_vendor_qcom_opensource_usb" groups="qcom,waipio-vendor" />
@@ -103,7 +91,6 @@
   <project path="hardware/libhardware" name="ArrowOS/android_hardware_libhardware" remote="github" revision="arrow-13.0" />
   <project path="hardware/libhardware_legacy" name="ArrowOS/android_hardware_libhardware_legacy" remote="github" revision="arrow-13.0" />
   <project path="hardware/ril" name="ArrowOS/android_hardware_ril" groups="pdk" remote="github" revision="arrow-13.0" />
-  <!--<project path="hardware/lineage/compat" remote="lineage" name="android_hardware_lineage_compat" /> -->
 
   <!-- Frameworks -->
   <project path="frameworks/opt/net/ims" name="ArrowOS/android_frameworks_opt_net_ims" remote="github" revision="arrow-13.0" />
